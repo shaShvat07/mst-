@@ -11,6 +11,12 @@
 📁 your_folder/ 
 ├── 📁 .ipynb_checkpoints/
 ├── 📁 cave_dataset/
+    ├── 📁 balloons_ms/
+         ├── 📁 balloons_ms/
+              ├── 📄 baloons_ms_01.png
+              ├── 📄 baloons_ms_02.png
+              ............
+              ├── 📄 baloons_RGB.bmp
 ├── 📁 checkpoints/
 ├── 📁 results/
 ├── 📄 .gitignore
@@ -69,6 +75,8 @@ pip install \
 ## Running the code
 
 - First, clone the repository, open your terminal and hit `git clone https://github.com/shaShvat07/mst-.git`
-- Install the dependencies as mentioned above using pip
+- Then, download the `CAVE Dataset` from the above link provided. Place it and name it in your workspace as mentioned in the file structure.
+- Delete the folder `watercolors_ms` folder from the `CAVE Dataset` as it was not consistent with other folder contents!
+- Install the dependencies/packages as mentioned above using pip 
 - After that, you can simply run the code in jupyter kernel one by one
 - Lastly, after completing the training and inference process, the results are stored in `results` folder
