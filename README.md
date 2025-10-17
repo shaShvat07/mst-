@@ -67,6 +67,8 @@ pip install \
 - Standard library modules are bundled with Python and don’t require manual installation.
 
 ## Running the code
+
+- First, clone the repository, open your terminal and hit `git clone https://github.com/shaShvat07/mst-.git`
 - Install the dependencies as mentioned above using pip
-- after that you can simply run the code in jupyter kernel one by one
-- after completing the training and inference, the results are stored in results folder
+- After that, you can simply run the code in jupyter kernel one by one
+- Lastly, after completing the training and inference process, the results are stored in `results` folder
