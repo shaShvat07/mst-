@@ -80,3 +80,7 @@ pip install \
 - Install the dependencies/packages as mentioned above using pip 
 - After that, you can simply run the code in jupyter kernel one by one
 - Lastly, after completing the training and inference process, the results are stored in `results` folder
+
+## Future work
+
+- The inference results are not consistent with what is expected. Since, the model was made specifically for Arad1K datasets which contains 1000 entities. Here we have only limited entity with hsi images in png in grayscale format. I converted the 31 images into a data cube so we can input this as the HSI image, then compared it using RGB image provided and then trained it using MST++. Problem is the limited numbers of entity because of which model cannot learn properly resulting in poor training as clearly visible in training_metric.png
