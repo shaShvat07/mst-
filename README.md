@@ -29,8 +29,8 @@ This project uses the following Python packages and standard library modules. In
 - `scipy`==1.15.2  
 - `opencv-python-headless`==4.8.1.78  
 - `torch`==2.1.2+cu121  
-- `torchaudio`==2.1.2+cu121  (if audio functionality is used alongside torch; otherwise omit)  
-- `torchvision`==0.16.2+cu121  (if vision models/transforms are used; otherwise omit)  
+- `torchaudio`==2.1.2+cu121  
+- `torchvision`==0.16.2+cu121   
 - `Pillow`==11.1.0  
 - `typing_extensions`==4.12.2  
 
