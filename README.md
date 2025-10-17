@@ -13,10 +13,10 @@
 ├── 📁 cave_dataset/
     ├── 📁 balloons_ms/
          ├── 📁 balloons_ms/
-              ├── 📄 baloons_ms_01.png
-              ├── 📄 baloons_ms_02.png
+              ├── 📄 balloons_ms_01.png
+              ├── 📄 balloons_ms_02.png
               ............
-              ├── 📄 baloons_RGB.bmp
+              ├── 📄 balloons_RGB.bmp
 ├── 📁 checkpoints/
 ├── 📁 results/
 ├── 📄 .gitignore
