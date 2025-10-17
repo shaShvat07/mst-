@@ -21,7 +21,8 @@
 # Dependencies
 
 This project uses the following Python packages and standard library modules. Install the third‑party packages with the pinned versions for reproducibility.
-
+- `python` verison == 3.11.11
+  
 ## Third‑party packages
 
 - `matplotlib`==3.10.1  
@@ -72,3 +73,8 @@ pip install torchvision==0.16.2+cu121 torchaudio==2.1.2+cu121
 
 - Ensure that the CUDA build of torch matches your system/CUDA runtime (listed above as +cu121). If running on CPU‑only, install the CPU build of torch and matching torchvision/torchaudio.  
 - Standard library modules are bundled with Python and don’t require manual installation.
+
+## Running the code
+- Install the dependencies as mentioned above using pip
+- after that you can simply run the code in jupyter kernel one by one
+- after completing the training and inference, the results are stored in results folder
